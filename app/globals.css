@@ -24,3 +24,13 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+button {
+  background-color: #4771ff; /* New background color */
+  border: 1px solid #174cff; /* New border color */
+  padding: 5px 10px;
+  font-size: 16px;
+  color: #c7c7c7;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
