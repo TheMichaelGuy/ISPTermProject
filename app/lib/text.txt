@@ -1,0 +1,462 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+Invalid FORMAT_TYPE 'TEXT' was used. The results below displayed in 'Text' format.
+BLASTN 2.17.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+RID: J26ZM9Z7014
+
+
+Database: Core nucleotide BLAST database
+           119,087,540 sequences; 955,872,569,307 total letters
+Query= PQ647007.1 MAG: Inoviridae sp. isolate k127_728462 genomic sequence
+
+Length=6192
+
+
+                                                                   Score     E      Max
+Sequences producing significant alignments:                       (Bits)  Value   Ident
+
+PQ647007.1 MAG: Inoviridae sp. isolate k127_728462 genomic seq...  11167   0.0     100%      
+CP183160.1 Escherichia coli strain 572 plasmid pCREC572-6, com...  9465    0.0     94%       
+NC_002014.1 Enterobacteria phage Ike, complete genome              9448    0.0     95%       
+AY842155.1 Synthetic construct Enterobacteria phage Ike isolat...  9300    0.0     94%       
+MT901797.1 Erwinia phage PEar1, complete genome                    8819    0.0     93%       
+NC_073751.1 Erwinia phage PEar6, complete genome                   8796    0.0     93%       
+MT901798.1 Erwinia phage PEar2, complete genome                    8788    0.0     93%       
+MT901799.1 Erwinia phage PEar4, complete genome                    8707    0.0     93%       
+MN855892.1 MAG: Inoviridae sp. isolate 381, complete genome        4204    0.0     91%       
+CP132687.1 Klebsiella pneumoniae strain 23620 plasmid p4, comp...  3709    0.0     79%       
+X14336.1 Filamentous Bacteriophage I2-2 genome                     2894    0.0     88%       
+NC_001332.1 Enterobacteria phage I2-2, complete genome             2894    0.0     88%       
+AY842156.1 Synthetic construct Enterobacteria phage Ike isolat...  2383    0.0     97%       
+BK024144.1 MAG TPA_asm: Inoviridae sp. isolate ctCYD1, partial...  890     0.0     68%       
+OZ040896.1 Escherichia coli isolate 30134_6#251 genome assembl...  885     0.0     68%       
+OZ041700.1 Escherichia coli isolate 30859_5#355 genome assembl...  853     0.0     68%       
+CP115659.1 Kosakonia oryzendophytica strain FY-07 chromosome, ...  847     0.0     69%       
+BK045798.1 MAG TPA_asm: Inoviridae sp. isolate ctf7H26, partia...  847     0.0     69%       
+CP099134.1 Escherichia coli strain RHB31-E3-C03 chromosome, co...  838     0.0     67%       
+CP057838.1 Escherichia coli strain RHB13-C09 chromosome, compl...  834     0.0     67%       
+CP082370.1 Salmonella enterica subsp. enterica serovar Anatum ...  833     0.0     67%       
+CP140402.1 Salmonella enterica subsp. enterica serovar Hadar s...  833     0.0     67%       
+CP140405.1 Salmonella enterica strain PNUSAS200857 chromosome,...  833     0.0     67%       
+CP093081.1 Salmonella enterica strain PNUSAS148096 chromosome,...  833     0.0     67%       
+CP140404.1 Salmonella enterica subsp. enterica serovar Hadar s...  833     0.0     67%       
+CP158215.1 Salmonella enterica subsp. enterica serovar Hadar s...  833     0.0     67%       
+CP158248.1 Salmonella enterica subsp. enterica serovar Hadar s...  833     0.0     67%       
+CP158249.1 Salmonella enterica subsp. enterica serovar Hadar s...  833     0.0     67%       
+CP140409.1 Salmonella enterica strain PNUSAS210186 chromosome,...  833     0.0     67%       
+CP158244.1 Salmonella enterica subsp. enterica serovar Hadar s...  833     0.0     67%       
+CP158247.1 Salmonella enterica subsp. enterica serovar Hadar s...  833     0.0     67%       
+CP158250.1 Salmonella enterica subsp. enterica serovar Hadar s...  833     0.0     67%       
+CP158242.1 Salmonella enterica subsp. enterica serovar Hadar s...  833     0.0     67%       
+CP158251.1 Salmonella enterica subsp. enterica serovar Hadar s...  833     0.0     67%       
+CP093072.1 Salmonella enterica subsp. enterica serovar Hadar s...  833     0.0     67%       
+CP093084.1 Salmonella enterica strain PNUSAS147811 chromosome,...  833     0.0     67%       
+CP158240.1 Salmonella enterica strain 21NC03GT06-S1 chromosome...  833     0.0     67%       
+CP158278.1 Salmonella enterica subsp. enterica serovar Hadar s...  833     0.0     67%       
+CP158239.1 Salmonella enterica strain 21KS11GT06-S1 chromosome...  833     0.0     67%       
+CP074366.1 Escherichia coli strain ZYB62 chromosome, complete ...  830     0.0     67%       
+CP055718.1 Escherichia coli strain RHB13-C21 chromosome, compl...  829     0.0     67%       
+LR134152.1 Escherichia coli strain NCTC9104 genome assembly, c...  829     0.0     67%       
+OZ038851.1 Escherichia coli isolate 30348_2#62 genome assembly...  829     0.0     67%       
+CP165428.1 Escherichia coli strain OXEC-448 chromosome, comple...  829     0.0     67%       
+CP075106.1 Salmonella enterica strain CFSAN064276 chromosome, ...  829     0.0     67%       
+CP073946.1 Escherichia coli strain MB51 chromosome, complete g...  829     0.0     67%       
+CP138217.1 Escherichia coli strain 20Y000092 chromosome, compl...  829     0.0     67%       
+CP165263.1 Escherichia coli strain OXEC-490 chromosome, comple...  829     0.0     67%       
+CP184091.1 Escherichia coli strain AZ184 chromosome, complete ...  829     0.0     67%       
+CP057885.1 Escherichia coli strain RHB11-C16 chromosome, compl...  829     0.0     67%       
+CP062220.1 Salmonella enterica subsp. enterica serovar Kottbus...  829     0.0     67%       
+CP045870.1 Klebsiella aerogenes strain Y1 chromosome, complete...  829     0.0     67%       
+CP137445.1 Klebsiella pneumoniae strain 2022JQ-00762 chromosom...  829     0.0     67%       
+CP057597.1 Escherichia coli strain RHB21-C12 chromosome, compl...  829     0.0     67%       
+OU342919.1 Escherichia coli isolate UR21/11-869 genome assembl...  829     0.0     67%       
+CP173466.1 Escherichia coli strain 98227 chromosome, complete ...  829     0.0     67%       
+CP057371.1 Escherichia coli strain RHB28-C15 chromosome, compl...  828     0.0     67%       
+CP045868.1 Klebsiella aerogenes strain Y6 chromosome, complete...  828     0.0     67%       
+CP044177.1 Salmonella enterica subsp. enterica serovar Concord...  828     0.0     67%       
+CP134358.1 Escherichia coli strain TUM13936 chromosome, comple...  828     0.0     67%       
+CP030185.1 Salmonella enterica strain SA20094620 chromosome, c...  828     0.0     67%       
+CP045869.1 Klebsiella aerogenes strain Y3 chromosome, complete...  828     0.0     67%       
+CP184019.1 Escherichia coli strain 1434 chromosome, complete g...  825     0.0     67%       
+CP093317.1 Escherichia coli strain HUM3355 chromosome, complet...  825     0.0     67%       
+CP152879.1 Klebsiella quasipneumoniae subsp. similipneumoniae ...  824     0.0     67%       
+CP082447.1 Salmonella enterica subsp. enterica serovar Johanne...  824     0.0     67%       
+CP123665.1 Salmonella enterica subsp. enterica serovar Johanne...  824     0.0     67%       
+CP019411.1 Salmonella enterica subsp. enterica serovar Johanne...  824     0.0     67%       
+CP123650.1 Salmonella enterica strain 19MN02PC03 chromosome, c...  824     0.0     67%       
+CP051716.1 Escherichia coli strain SCU-118 chromosome, complet...  824     0.0     67%       
+CP171565.1 Klebsiella pneumoniae strain KP15_UID2108280011 chr...  824     0.0     67%       
+CP164548.1 Escherichia coli strain OXEC-422 chromosome, comple...  823     0.0     67%       
+CP051353.1 Salmonella enterica subsp. enterica serovar Worthin...  823     0.0     67%       
+CP039509.1 Salmonella enterica subsp. enterica serovar Worthin...  823     0.0     67%       
+CP165255.1 Escherichia coli strain OXEC-492 chromosome, comple...  823     0.0     67%       
+CP074647.1 Salmonella enterica subsp. enterica strain CFSAN029...  823     0.0     67%       
+CP051338.1 Salmonella enterica subsp. enterica serovar Worthin...  823     0.0     67%       
+CP062855.1 Escherichia coli O20:H12 strain Res13-Lact-PEB17-18...  823     0.0     67%       
+CP039503.1 Salmonella enterica subsp. enterica serovar Worthin...  823     0.0     67%       
+CP035884.1 Escherichia coli strain LSN03-016011/A chromosome, ...  821     0.0     68%       
+BK029458.1 MAG TPA_asm: Inoviridae sp. isolate ct5qk3, partial...  820     0.0     68%       
+CP082396.1 Salmonella enterica subsp. enterica serovar Hadar s...  820     0.0     67%       
+CP104503.1 Escherichia coli strain E1 chromosome, complete genome  820     0.0     67%       
+CP074281.1 Salmonella enterica subsp. enterica serovar Javiana...  820     0.0     67%       
+CP069518.1 Salmonella enterica strain FDAARGOS_1271 chromosome...  820     0.0     67%       
+CP195940.1 Escherichia coli strain C10 chromosome, complete ge...  820     0.0     67%       
+CP119465.1 Salmonella enterica subsp. enterica serovar Anatum ...  820     0.0     67%       
+CP116919.1 Escherichia coli strain MLI102 chromosome, complete...  817     0.0     67%       
+OZ038585.1 Escherichia coli isolate 30348_2#68 genome assembly...  815     0.0     67%       
+CP141085.1 Escherichia coli strain KE48 plasmid unnamed1, comp...  811     0.0     67%       
+CP092647.1 Escherichia coli strain EC5502 chromosome, complete...  810     0.0     67%       
+CP055768.1 Escherichia coli strain RHB05-C22 chromosome, compl...  792     0.0     67%       
+OZ040450.1 Escherichia coli isolate 30859_5#311 genome assembl...  791     0.0     67%       
+CP126934.1 Escherichia coli O78:H4 strain APEC E19057 chromoso...  791     0.0     67%       
+CP091160.1 Escherichia coli strain NEC6 chromosome                 774     0.0     67%       
+CP096187.1 Enterobacter roggenkampii isolate C3-17 chromosome,...  619     1e-171  74%       
+CP019266.1 Escherichia coli strain 13C1065T plasmid p13C1065T-...  606     3e-167  70%       
+X01914.1 Bacteriophage IKe gene for DNA binding protein            532     6e-145  97%       
+CP140410.1 Salmonella enterica strain PNUSAS210186 plasmid unn...  468     6e-126  69%       
+CP047661.1 Escherichia coli strain LD39-1 plasmid pLD39-1-6kb,...  413     4e-109  68%       
+
+ALIGNMENTS
+>PQ647007.1 MAG: Inoviridae sp. isolate k127_728462 genomic sequence
+Length=6192
+
+ Score = 11167 bits (12384),  Expect = 0.0
+ Identities = 6192/6192 (100%), Gaps = 0/6192 (0%)
+ Strand=Plus/Plus
+
+Query  1     AGCGCGCCGTCTCTTGATTGCTTAGGGAATCCGCTTTTGTATCAATGGTCAGCACGAGCT  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1     AGCGCGCCGTCTCTTGATTGCTTAGGGAATCCGCTTTTGTATCAATGGTCAGCACGAGCT  60
+
+Query  61    GGCCATTACCCATAACAACAGGCGTCACCTTAAGAGAAATACCAATATCGCGGCGCTCAA  120
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  61    GGCCATTACCCATAACAACAGGCGTCACCTTAAGAGAAATACCAATATCGCGGCGCTCAA  120
+
+Query  121   TGGTCTGGAAAGGGTTGTTAACGCTTGCAGCCTCACCAGTTACCTTACCAGTGACGAACG  180
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  121   TGGTCTGGAAAGGGTTGTTAACGCTTGCAGCCTCACCAGTTACCTTACCAGTGACGAACG  180
+
+Query  181   GCACATTTTGACCAACAGAGATATAACCTGTCTGCCCTGATTGCGTCAGGATGCGAGGGG  240
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  181   GCACATTTTGACCAACAGAGATATAACCTGTCTGCCCTGATTGCGTCAGGATGCGAGGGG  240
+
+Query  241   TAGAAATAACTTTTGAATTAGAGTCATTTTTTACCGCCTGAATGGATAACGCTAAAACAT  300
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  241   TAGAAATAACTTTTGAATTAGAGTCATTTTTTACCGCCTGAATGGATAACGCTAAAACAT  300
+
+Query  301   TACCGTTAAAGATACCGAAGGAGCCGCCAGCGGTTGAAAGAGCAGTGCCAAGAGCGGATG  360
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  301   TACCGTTAAAGATACCGAAGGAGCCGCCAGCGGTTGAAAGAGCAGTGCCAAGAGCGGATG  360
+
+Query  361   TATTGAAACCGCCTGCAACCTTATCACCAGAAGCAGAACCGGCAGCAAAAGAGAGATCCA  420
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  361   TATTGAAACCGCCTGCAACCTTATCACCAGAAGCAGAACCGGCAGCAAAAGAGAGATCCA  420
+
+Query  421   CGCCATTAGTTAAGCTGGTTTCAAACATAAGCGACTGGATAAGAACCTGATCACGGGCAA  480
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  421   CGCCATTAGTTAAGCTGGTTTCAAACATAAGCGACTGGATAAGAACCTGATCACGGGCAA  480
+
+Query  481   CGTCGATTGACGTAATGAAATCAGCCAGGGCATTCATGATAGCCGCAGAACCTGACACCA  540
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  481   CGTCGATTGACGTAATGAAATCAGCCAGGGCATTCATGATAGCCGCAGAACCTGACACCA  540
+
+Query  541   CCAGGCTGTTATTGCCTGGGTAATCGATAACATCGCCGCCACCGTTGGAATCAACAAAGA  600
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  541   CCAGGCTGTTATTGCCTGGGTAATCGATAACATCGCCGCCACCGTTGGAATCAACAAAGA  600
+
+Query  601   TTTTAGCAAGCGGGAGAACGTCAGAAGAACGCACGCGGGTTAACTTGAAATTGCGAACGG  660
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  601   TTTTAGCAAGCGGGAGAACGTCAGAAGAACGCACGCGGGTTAACTTGAAATTGCGAACGG  660
+
+Query  661   TAAGATCTACAGGCTTTTGCGGTTCGGCAGCTACCGGAGCAGAATCACCAACCGGAGCAT  720
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  661   TAAGATCTACAGGCTTTTGCGGTTCGGCAGCTACCGGAGCAGAATCACCAACCGGAGCAT  720
+
+Query  721   AATCCGCGGGATCTTCATAATCATCATCATAATCGGACTGTTGGGAAGGCAGCTTTGACG  780
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  721   AATCCGCGGGATCTTCATAATCATCATCATAATCGGACTGTTGGGAAGGCAGCTTTGACG  780
+
+Query  781   GTGTAGATACAACGGACGGATTGCCAGCCATAAGAACAAAACCGTTAGCGTTAAGAACAG  840
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  781   GTGTAGATACAACGGACGGATTGCCAGCCATAAGAACAAAACCGTTAGCGTTAAGAACAG  840
+
+Query  841   ACTTAAAGAAATCATCAATATTGGCCTGATTAACATCAGCATTAAATACGGTGATATTTC  900
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  841   ACTTAAAGAAATCATCAATATTGGCCTGATTAACATCAGCATTAAATACGGTGATATTTC  900
+
+Query  901   CTTTAACATCAGGATTTACAACAACAGCTTTATTAGATTTTTGCGAATACCATTGCACAA  960
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  901   CTTTAACATCAGGATTTACAACAACAGCTTTATTAGATTTTTGCGAATACCATTGCACAA  960
+
+Query  961   ACGAACGCACCGGAGCGTTATTTAAATTGACTGGCTCAGCCAGCACATTAAATGCAATGC  1020
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  961   ACGAACGCACCGGAGCGTTATTTAAATTGACTGGCTCAGCCAGCACATTAAATGCAATGC  1020
+
+Query  1021  CTAATGTCATAAGGAAACAGAGCGCAACATACCCAAAAATGAATTTCTTTTCAGCCTGTA  1080
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1021  CTAATGTCATAAGGAAACAGAGCGCAACATACCCAAAAATGAATTTCTTTTCAGCCTGTA  1080
+
+Query  1081  ATTTCATAATCAACCTTCACAAGTAATTTGTTGTATATATGATTTCTTAACAATGGTTAC  1140
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1081  ATTTCATAATCAACCTTCACAAGTAATTTGTTGTATATATGATTTCTTAACAATGGTTAC  1140
+
+Query  1141  ATGACACGCATCTTTAATATCCACTCTATAACCATCTTTCATCAAATCGAATGAGTTATA  1200
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1141  ATGACACGCATCTTTAATATCCACTCTATAACCATCTTTCATCAAATCGAATGAGTTATA  1200
+
+Query  1201  GATTTTGGCTTTAGCGTCTTTAAAAGTAACAGATACATCATAACCCATTTGAGAATATGA  1260
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1201  GATTTTGGCTTTAGCGTCTTTAAAAGTAACAGATACATCATAACCCATTTGAGAATATGA  1260
+
+Query  1261  GTTGATCGTTAATCTAGGTAATATTTCCGCACTTTGATCGGTTTTGCTGATCACAGATGT  1320
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1261  GTTGATCGTTAATCTAGGTAATATTTCCGCACTTTGATCGGTTTTGCTGATCACAGATGT  1320
+
+Query  1321  TTTAGAATTAGCCTGAATATTTTGAAGCTGATTAGAATAGTCTTGAGATTTATAAAACAT  1380
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1321  TTTAGAATTAGCCTGAATATTTTGAAGCTGATTAGAATAGTCTTGAGATTTATAAAACAT  1380
+
+Query  1381  GCCACAGGCAGCACCAAGCGCAAGAAACGAGGCCATTAACCAAACGCGATTCATTTTCTT  1440
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1381  GCCACAGGCAGCACCAAGCGCAAGAAACGAGGCCATTAACCAAACGCGATTCATTTTCTT  1440
+
+Query  1441  GAAATAGATTTTAGTCATGCGCATATAATATTTTGCATCCCTTTTAACAGAAAAAATACC  1500
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1441  GAAATAGATTTTAGTCATGCGCATATAATATTTTGCATCCCTTTTAACAGAAAAAATACC  1500
+
+Query  1501  ATGAGTATAATAAGGAGAAAGCGGACAGTAAGGAGGGCTTATCTCGCGGTCACTGGTGAA  1560
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1501  ATGAGTATAATAAGGAGAAAGCGGACAGTAAGGAGGGCTTATCTCGCGGTCACTGGTGAA  1560
+
+Query  1561  TATCTGTTTAGTGTCATAAGCAGCATATAAATCTGTACCCGTATAAACCCATTTATCGAC  1620
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1561  TATCTGTTTAGTGTCATAAGCAGCATATAAATCTGTACCCGTATAAACCCATTTATCGAC  1620
+
+Query  1621  AGTTAAAGATTGAGGATTATCACCATATTTAACAATACCAAAATGCACTTTTGGTAGCGG  1680
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1621  AGTTAAAGATTGAGGATTATCACCATATTTAACAATACCAAAATGCACTTTTGGTAGCGG  1680
+
+Query  1681  TAATCTACCGCCAGATAATACAGATATTAAGCCGCCGATAATTGGTATATTCAATTTATC  1740
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1681  TAATCTACCGCCAGATAATACAGATATTAAGCCGCCGATAATTGGTATATTCAATTTATC  1740
+
+Query  1741  CAAGCGACGACAATAAACAACGTGTTCAGCCAAAGCATCACGCGCTTGCTTATCCATCAG  1800
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1741  CAAGCGACGACAATAAACAACGTGTTCAGCCAAAGCATCACGCGCTTGCTTATCCATCAG  1800
+
+Query  1801  AGAAATATCCTGAATAATAAAGATAATATCCCAACCTAATTTACGTGCATGTAAACACCA  1860
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1801  AGAAATATCCTGAATAATAAAGATAATATCCCAACCTAATTTACGTGCATGTAAACACCA  1860
+
+Query  1861  ATCAATAACAGGTTGTCTTGATTTATCGCTCCAGTTTCTTGAGTTAAACCAAGTACCACA  1920
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1861  ATCAATAACAGGTTGTCTTGATTTATCGCTCCAGTTTCTTGAGTTAAACCAAGTACCACA  1920
+
+Query  1921  TTCATCAAGAACTAATAAGCCGTTCTTTGATTCATCATAAGTTAAATTACCGCGACCAAT  1980
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1921  TTCATCAAGAACTAATAAGCCGTTCTTTGATTCATCATAAGTTAAATTACCGCGACCAAT  1980
+
+Query  1981  AGATTCTAAATCCTCCAGAGTTGGCTTATCAGCAATACGCATAACACGGCATTGTTTAGC  2040
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1981  AGATTCTAAATCCTCCAGAGTTGGCTTATCAGCAATACGCATAACACGGCATTGTTTAGC  2040
+
+Query  2041  ATACCTTCCAACTTGAGGAAAATGATGTAGTTTAAGATTTAAATTGGTGGCAACAATGCC  2100
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  2041  ATACCTTCCAACTTGAGGAAAATGATGTAGTTTAAGATTTAAATTGGTGGCAACAATGCC  2100
+
+Query  2101  ACCTTTCGCTAATGTGCGCTGAATACGTGATACAGCAACCAGAGTTTTACCAGCACCTAA  2160
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  2101  ACCTTTCGCTAATGTGCGCTGAATACGTGATACAGCAACCAGAGTTTTACCAGCACCTAA  2160
+
+Query  2161  TTTACCTGTAACAACATAAACAGCCATATCAAATAACCTTATTAGCGATGCCGAGTAAAC  2220
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  2161  TTTACCTGTAACAACATAAACAGCCATATCAAATAACCTTATTAGCGATGCCGAGTAAAC  2220
+
+Query  2221  GATCTTTAATGTCAAAAACAAAAACGGCAATTCTAGTTGTCATAATTACTGTAATACAGG  2280
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  2221  GATCTTTAATGTCAAAAACAAAAACGGCAATTCTAGTTGTCATAATTACTGTAATACAGG  2280
+
+Query  2281  TTGTAGTGCCATCAGGTAATACAGACGACATTAAATTGCCAAAATCAGCAGATATCCCAC  2340
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  2281  TTGTAGTGCCATCAGGTAATACAGACGACATTAAATTGCCAAAATCAGCAGATATCCCAC  2340
+
+Query  2341  CCATAGAAGATGATAAAGCATCACCCAATAGCTGAATGGAAAGCGTAACAACTGAAAGAA  2400
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  2341  CCATAGAAGATGATAAAGCATCACCCAATAGCTGAATGGAAAGCGTAACAACTGAAAGAA  2400
+
+Query  2401  TAGCGCCAATTAAAGCAGCAGCCATTAACCCATTGCGAGTAATTATCTTACCAAGAAATT  2460
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  2401  TAGCGCCAATTAAAGCAGCAGCCATTAACCCATTGCGAGTAATTATCTTACCAAGAAATT  2460
+
+Query  2461  TAGCAAAGTAACCAATAGCAATGGGAACAAGCCCCATAATAAAACGAATTAAAGCCGGAA  2520
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  2461  TAGCAAAGTAACCAATAGCAATGGGAACAAGCCCCATAATAAAACGAATTAAAGCCGGAA  2520
+
+Query  2521  TACCCAATAAAGCTGGCATTATTGTTCACCTTTACGAAGTAATGAAGTAACAGACTGGAA  2580
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  2521  TACCCAATAAAGCTGGCATTATTGTTCACCTTTACGAAGTAATGAAGTAACAGACTGGAA  2580
+
+Query  2581  TACATACCAGAATGTTAAGCAGTACATAACCCAAGATAATACTGATTTAATATCATTTAA  2640
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  2581  TACATACCAGAATGTTAAGCAGTACATAACCCAAGATAATACTGATTTAATATCATTTAA  2640
+
+Query  2641  TTTATCACAGCCAATTTCAATCTGATAAACAGAACCCTGATACATGACAAAATTAGTGCA  2700
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  2641  TTTATCACAGCCAATTTCAATCTGATAAACAGAACCCTGATACATGACAAAATTAGTGCA  2700
+
+Query  2701  ACCATGACCAGTAGGAATGGAGGGACGTAAAGCACCGTCATTTAAAAAGGCTTCCCAAGA  2760
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  2701  ACCATGACCAGTAGGAATGGAGGGACGTAAAGCACCGTCATTTAAAAAGGCTTCCCAAGA  2760
+
+Query  2761  GGAACCGTGACCATCACGACTGACACCTAGAAGATCTTTAGCCTGAGCTACGGATAAATC  2820
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  2761  GGAACCGTGACCATCACGACTGACACCTAGAAGATCTTTAGCCTGAGCTACGGATAAATC  2820
+
+Query  2821  CATCTGTGACGAACCTTTGCCGTACTTGGAAGACTCACCGCCAAGATCGTCAACGAAATT  2880
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  2821  CATCTGTGACGAACCTTTGCCGTACTTGGAAGACTCACCGCCAAGATCGTCAACGAAATT  2880
+
+Query  2881  ACCAACGCCACGCATACCATCAGAGATAGCGTCAGATACAGCAGCAGAGGCTTTAGATGA  2940
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  2881  ACCAACGCCACGCATACCATCAGAGATAGCGTCAGATACAGCAGCAGAGGCTTTAGATGA  2940
+
+Query  2941  TTGTTCATCTGCTTCCTTCTGATTATCGTACTGGTCATTCTCTTCAGTAAGGGAATGTTT  3000
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  2941  TTGTTCATCTGCTTCCTTCTGATTATCGTACTGGTCATTCTCTTCAGTAAGGGAATGTTT  3000
+
+Query  3001  AACAGCATCACCAATAGAAGGGGAAGCATCATGTATTGCTGCGGTTACATCTTCCTTTGT  3060
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  3001  AACAGCATCACCAATAGAAGGGGAAGCATCATGTATTGCTGCGGTTACATCTTCCTTTGT  3060
+
+Query  3061  CAGTGATTTACCAGTTGATCCACCGGACGAACCGCCACCCGAAGAaccgccaccagtaga  3120
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  3061  CAGTGATTTACCAGTTGATCCACCGGACGAACCGCCACCCGAAGAACCGCCACCAGTAGA  3120
+
+Query  3121  accaccagtatcgccgccagtagaaccaccaccagtatcaccgccaccagtatcaccgcc  3180
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  3121  ACCACCAGTATCGCCGCCAGTAGAACCACCACCAGTATCACCGCCACCAGTATCACCGCC  3180
+
+Query  3181  accagtatcagaaccatcttcaccagtaccGCCAGTGTCACCGTCTTTCACAGGAGAGGA  3240
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  3181  ACCAGTATCAGAACCATCTTCACCAGTACCGCCAGTGTCACCGTCTTTCACAGGAGAGGA  3240
+
+Query  3241  GGAAGATTCTCCAGATTCGGGGACGTAACCAGTTGGTTTCCAAGCGGAGGAGGAACAGAC  3300
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  3241  GGAAGATTCTCCAGATTCGGGGACGTAACCAGTTGGTTTCCAAGCGGAGGAGGAACAGAC  3300
+
+Query  3301  AGTTCCATCATTCTGGCAAACAGTGACGCCAGTTGCCTCATATTCGCAGCCATTATAATT  3360
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  3301  AGTTCCATCATTCTGGCAAACAGTGACGCCAGTTGCCTCATATTCGCAGCCATTATAATT  3360
+
+Query  3361  AATATAAAAGCCTCCTTCGTCACCCTTAGAGACGTTATTAAAGACGCCATCAATAGGAGG  3420
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  3361  AATATAAAAGCCTCCTTCGTCACCCTTAGAGACGTTATTAAAGACGCCATCAATAGGAGG  3420
+
+Query  3421  TTTTGCTTCACAGATTTCTTCTGGCGTTTGTTCAGAAGGTTCTTCATCTGGTACAGAACG  3480
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  3421  TTTTGCTTCACAGATTTCTTCTGGCGTTTGTTCAGAAGGTTCTTCATCTGGTACAGAACG  3480
+
+Query  3481  TTGCATATCACCCTCAACCTGAGCGCGAACAGACCAACTTTCAGTTTTTTCACCAGGCGA  3540
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  3481  TTGCATATCACCCTCAACCTGAGCGCGAACAGACCAACTTTCAGTTTTTTCACCAGGCGA  3540
+
+Query  3541  ACCGTTATAAACGCAGGTATCACCAGTTACAAGGCGAAACTGAGAATCAGGCCATGTACC  3600
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  3541  ACCGTTATAAACGCAGGTATCACCAGTTACAAGGCGAAACTGAGAATCAGGCCATGTACC  3600
+
+Query  3601  AGATAATGTTAGCTTCATTTGATTAAAAACATCTTGTGCAGAGGCTTTAGCATCATTACA  3660
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  3601  AGATAATGTTAGCTTCATTTGATTAAAAACATCTTGTGCAGAGGCTTTAGCATCATTACA  3660
+
+Query  3661  GGCGGTAGTTAAATCAGCCTGAGTTATAACCTCTTTACGAACTGTTTTACCATCCTGATC  3720
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  3661  GGCGGTAGTTAAATCAGCCTGAGTTATAACCTCTTTACGAACTGTTTTACCATCCTGATC  3720
+
+Query  3721  TTTTGATTCAACAGTTTTAGACATGGTGAAGCCAGCATAATAGCTTTTAGTAATAGACTC  3780
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  3721  TTTTGATTCAACAGTTTTAGACATGGTGAAGCCAGCATAATAGCTTTTAGTAATAGACTC  3780
+
+Query  3781  CCAATTATCAGCATTAGACAAAGGGATGTATAAAAATAAAGAAATTGCTATTATTTTTCT  3840
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  3781  CCAATTATCAGCATTAGACAAAGGGATGTATAAAAATAAAGAAATTGCTATTATTTTTCT  3840
+
+Query  3841  TTTCACAATTACGCCTTAGCTGAATTAAAGTaaaaaaaaaGGGCGCAATAGCGCCCCTTA  3900
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  3841  TTTCACAATTACGCCTTAGCTGAATTAAAGTAAAAAAAAAGGGCGCAATAGCGCCCCTTA  3900
+
+Query  3901  AATAACGCTGAAAATTAAACAGCTTTAGAAGAGAACTTCTTAAAGAGGCGAATTGCAAGA  3960
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  3901  AATAACGCTGAAAATTAAACAGCTTTAGAAGAGAACTTCTTAAAGAGGCGAATTGCAAGA  3960
+
+Query  3961  CCGGCAACTACAACAGTCGTTACAACAGGCCAAGCCTGAGCAATGAGATCAGTTGCCTGA  4020
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  3961  CCGGCAACTACAACAGTCGTTACAACAGGCCAAGCCTGAGCAATGAGATCAGTTGCCTGA  4020
+
+Query  4021  GTTTTAAGGCTGTTCATTGCTTCGGTAGCATAGTTAGTAGCTACGTTGCCTTCAGCAGCG  4080
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  4021  GTTTTAAGGCTGTTCATTGCTTCGGTAGCATAGTTAGTAGCTACGTTGCCTTCAGCAGCG  4080
+
+Query  4081  AAGGAACCAGCAGAAACCAGCATGGTAGCAACACCCAGAGCAATTTTGTTTTTAGCAGCT  4140
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  4081  AAGGAACCAGCAGAAACCAGCATGGTAGCAACACCCAGAGCAATTTTGTTTTTAGCAGCT  4140
+
+Query  4141  AAAACGGTAGAAAGAACACGCATTTTATTTTTCCTTAAATCATACGATTCGAAATTGATT  4200
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  4141  AAAACGGTAGAAAGAACACGCATTTTATTTTTCCTTAAATCATACGATTCGAAATTGATT  4200
+
+...
+
+
+Query  4231     AGCCCAAGAAATATGCACCGAGGAAAGAACCAACATAATCAATCATCGGAACACTCCAGC  4290
+                | || |||  ||| || |||| |||| || | | |||    || | || || || || ||
+Sbjct  2452854  AACCAAAGGTATAAGCCCCGAAGAAATAAACGATATA---CATTAACGAAAGACCCCCGC  2452798
+
+Query  4291     AGTAATTGCACCTAGCCCAAATGAAACAACAAGGCCA  4327
+                |||||| || || || ||||| |||| ||| | ||||
+Sbjct  2452797  AGTAATCGCGCCGAGGCCAAAAGAAATAACGATGCCA  2452761
+
+
+  Database: Core nucleotide BLAST database
+    Posted date:  Sep 30, 2025  11:25 PM
+  Number of letters in database: 955,872,569,307
+  Number of sequences in database:  119,087,540
+
+Lambda      K        H
+   0.634    0.408    0.912 
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+Matrix: blastn matrix:2 -3
+Gap Penalties: Existence: 5, Extension: 2
+Number of Sequences: 119087540
+Number of Hits to DB: 70492501
+Number of extensions: 770109
+Number of successful extensions: 770109
+Number of sequences better than 10: 11
+Number of HSP's better than 10 without gapping: 0
+Number of HSP's gapped: 770062
+Number of HSP's successfully gapped: 82
+Length of query: 6192
+Length of database: 955872569307
+Length adjustment: 43
+Effective length of query: 6149
+Effective length of database: 950751805087
+Effective search space: 5846172849479963
+Effective search space used: 5846172849479963
+A: 0
+X1: 22 (20.1 bits)
+X2: 33 (29.8 bits)
+X3: 110 (99.2 bits)
+S1: 28 (26.5 bits)
+S2: 53 (49.1 bits)

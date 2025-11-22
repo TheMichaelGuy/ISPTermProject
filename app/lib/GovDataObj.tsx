@@ -12,8 +12,10 @@ interface IDList {
 
 const GovDataObj = () => {
 
-  
-  
+  const [bioprojectID, setBID] = useState();
+  const [comparativeDB, setCDB] = useState();
+  const [blastProgram, setBlastProgram] = useState();
+
   const [IDs, setIDs] = useState<IDResponse | undefined>(undefined); // IDs from a BioProject entry
   const [AN, setAN] = useState<string>(""); // Accession Numbers
   const [blast, setBlast] = useState(undefined); // Blast Data
