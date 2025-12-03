@@ -112,7 +112,7 @@ const BlastForm = () => {
   }, []);
 
   useEffect(() => {
-    const fetchDBOptions = async () => {
+    //const fetchDBOptions = async () => {
       //try {
       //  const res = await fetch(
       //    `https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=nuccore&term=1133033[BioProject]&retmax=20&retmode=json`
@@ -123,9 +123,9 @@ const BlastForm = () => {
       //} catch (error) {
       //  console.error("Error fetching BioProjects:", error);
       //}
-    };
+    //};
     setDBOptions(["nt", "nr", "refseq_rna"]);
-    fetchDBOptions();
+    //fetchDBOptions();
   }, []);
 
   //useEffect(() => {
@@ -246,8 +246,8 @@ const BlastForm = () => {
         value={bioproject}
         onChange={(value:string) => {
           setBioproject(value);
-          console.log("Updating AN List")
-          fetchAccessionNumber();
+          //console.log("Updating AN List")
+          //fetchAccessionNumber();
         }}
       />
       <DropdownObj
