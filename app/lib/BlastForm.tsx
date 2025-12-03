@@ -36,7 +36,9 @@ export function parseBlastOutput(text: string): BlastResult {
   if (text.includes("Sequences producing significant alignments:")) {
     const section = text.split("Sequences producing significant alignments:")[1];
     const lines = section.split("\n").filter(line => line.trim() !== "");
-    hits = lines.map(line => {
+    const maxHits = 10;
+
+    hits = lines.slice(0, maxHits).map(line => {
       const parts = line.trim().split(/\s{2,}/);
       return {
         accession: parts[0] || "",
@@ -73,27 +75,39 @@ const BlastForm = () => {
 
   const [bioOptions, setBioOptions] = useState<string[]>([]);
   const [dbOptions, setDBOptions] = useState<string[]>([]);
-  const [programOptions, setProgramOptions] = useState<string[]>([]);
+  //const [programOptions, setProgramOptions] = useState<string[]>([]); // only blastn works on the fetched data
   const [accessionNumberOptions, setAccessionNumberOptions] = useState<string[]>([]);
 
-  const [result, setResult] = useState<string>("")
+  const [result, setResult] = useState<string>("");
+  const [status, setStatus] = useState<string>("");
 
   const [loading, setLoading] = useState(false);
+  const [saving, setSaving] = useState(false);
+
+  //const [debug, setDebug] = useState();
+  const [elapsed, setElapsed] = useState(0);
 
   useEffect(() => {
     const fetchBioProjects = async () => {
-      //try {
-      //  const res = await fetch(
-      //    `https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=nuccore&term=1133033[BioProject]&retmax=20&retmode=json`
-      //  );
-      //  const data = await res.json();
-      //  const ids = data.esearchresult.idlist;
-      //  setBioOptions(ids);
-      //} catch (error) {
-      //  console.error("Error fetching BioProjects:", error);
-      //}
+      try {
+        setBioOptions(["1133033"]);
+        // Why is everything a convoluted query?!!!
+
+        //console.log("Attempting to fetch BioProject")
+        //const res = await fetch(
+        //  `https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=bioproject&term=virus&retmax=20&retmode=json`
+        //);
+        //const data = await res.json();
+        ////console.log("BioProject Response: ", data);
+        //
+        //const ids = data.esearchresult.idlist; // list of BioProject IDs
+        //console.log("We gottem: ", ids);
+        //setBioOptions(ids);
+      } catch (error) {
+        console.error("Error fetching BioProjects:", error);
+        setBioOptions(["1133033"]);
+      }
     };
-    setBioOptions(["1133033"]);
     fetchBioProjects();
   }, []);
 
@@ -114,43 +128,58 @@ const BlastForm = () => {
     fetchDBOptions();
   }, []);
 
-  useEffect(() => {
-    const fetchProgramOptions = async () => {
-      //try {
-      //  const res = await fetch(
-      //    `https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=nuccore&term=1133033[BioProject]&retmax=20&retmode=json`
-      //  );
-      //  const data = await res.json();
-      //  const ids = data.esearchresult.idlist;
-      //  setBioOptions(ids);
-      //} catch (error) {
-      //  console.error("Error fetching BioProjects:", error);
-      //}
-    };
-    setProgramOptions(["blastn", "blastp", "blastx"]);
-    fetchProgramOptions();
-  }, []);
+  //useEffect(() => {
+  //  const fetchProgramOptions = async () => {
+  //    //try {
+  //    //  const res = await fetch(
+  //    //    `https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=nuccore&term=1133033[BioProject]&retmax=20&retmode=json`
+  //    //  );
+  //    //  const data = await res.json();
+  //    //  const ids = data.esearchresult.idlist;
+  //    //  setBioOptions(ids);
+  //    //} catch (error) {
+  //    //  console.error("Error fetching BioProjects:", error);
+  //    //}
+  //  };
+  //  setProgramOptions(["blastn", "blastp", "blastx"]);
+  //  fetchProgramOptions();
+  //}, []);
+  const fetchAccessionNumber = async () => {
+        try {
+          const res = await fetch(
+            `https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=nuccore&term=${bioproject}[BioProject]&retmax=20&retmode=json`
+          );
+          //console.log("got something")
+          const data = await res.json();
+          //console.log("data", data)
+          const ids = data.esearchresult.idlist;
+          //console.log("ids", ids)
+          setAccessionNumberOptions(ids);
+        } catch (error) {
+          console.error("Error fetching BioProjects:", error);
+        }
+      };
 
   useEffect(() => {
-    const fetchAccessionNumber = async () => {
-      try {
-        const res = await fetch(
-          `https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=nuccore&term=${bioproject}[BioProject]&retmax=20&retmode=json`
-        );
-        const data = await res.json();
-        const ids = data.esearchresult.idlist;
-        setAccessionNumberOptions(ids);
-      } catch (error) {
-        console.error("Error fetching BioProjects:", error);
-      }
-    };
-
     fetchAccessionNumber();
   }, []);
+  
+  useEffect(() => {
+    let timer: NodeJS.Timeout;
+    if (loading) {
+      timer = setInterval(() => {
+        setElapsed((prev) => prev + 1);
+      }, 1000);
+    } else {
+      setElapsed(0);
+    }
+    return () => clearInterval(timer);
+  }, [loading]);
 
   const handleBlast = async () => {
     setLoading(true);
     try {
+      setStatus("");
       // Step 1: Regex
       const res = await fetch(`https://blast.ncbi.nlm.nih.gov/Blast.cgi?CMD=Put&PROGRAM=${program}&DATABASE=${database}&QUERY=${accessionNumber}`);
       const html = await res.text();
@@ -183,10 +212,12 @@ const BlastForm = () => {
           statusReady = true;
         } else if (resultText.includes("Status=FAILED")) {
           console.error("BLAST job failed");
+          setStatus("BLAST Failed. Try another Accession Number");
           return;
         } else {
           console.error("BLAST job failed harder");
           console.log("Debug Text: ", resultText)
+          setStatus("BLAST Failed. Try another Accession Number");
           throw Error;
         }
       }
@@ -196,22 +227,10 @@ const BlastForm = () => {
 
       // Step 3: Set
       setResult(resultText);
-      // Step 4: Add this to the <database> compilation
-      const parsed = parseBlastOutput(resultText);
-      //console.log("Attempting to POST")
-
-      //await sql`
-      //INSERT INTO blast_results (rid, program, database, query, hits)
-      //VALUES (${parsed.rid}, ${parsed.program}, ${parsed.database}, ${parsed.query}, ${JSON.stringify(parsed.hits)})
-      //`;
-      //await fetch("/lib/blast", {
-      //  method: "POST",
-      //  headers: { "Content-Type": "application/json" },
-      //  body: JSON.stringify(parsed)
-      //});
-      //console.log("Finish POST")
+      setStatus("Query Returned!");
     } catch (error) {
       console.error('Fetch error:', error);
+      setStatus("BLAST Failed. Try another Accession Number");
     } finally {
       setLoading(false);
     }
@@ -225,7 +244,11 @@ const BlastForm = () => {
         label="BioProject ID"
         options={bioOptions}
         value={bioproject}
-        onChange={setBioproject}
+        onChange={(value:string) => {
+          setBioproject(value);
+          console.log("Updating AN List")
+          fetchAccessionNumber();
+        }}
       />
       <DropdownObj
         label="Database"
@@ -233,12 +256,14 @@ const BlastForm = () => {
         value={database}
         onChange={setDatabase}
       />
+      {/*
       <DropdownObj
         label="Program"
         options={programOptions}
         value={program}
         onChange={setProgram}
       />
+      */}
       <DropdownObj
         label="Accession Number"
         options={accessionNumberOptions}
@@ -246,26 +271,34 @@ const BlastForm = () => {
         onChange={setAccessionNumber}
       />
 
-      <button onClick={handleBlast} disabled={loading}>
+      <button onClick={async () => {
+        if (!loading) {
+          handleBlast();
+        }
+        }} disabled={loading}>
         {loading ? "Running BLAST..." : "Run BLAST"}
       </button>
 
       <button
         onClick={async () => {
+          if (status == "Query Returned!") {
+          setSaving(true);
           const parsed = parseBlastOutput(result);
           console.log("saving");
           await saveBlastResult(parsed);
+          setSaving(false);
+          setStatus("Done!");
+          }
         }}
       >
-        Save to DB
+        {saving ? "Saving..." : "Save to DB"}
       </button>
 
     </div>
-      {loading && <p>BLAST is running (it takes like a minute)</p>}
+      {}
+      {loading && <p>BLAST is running. {elapsed}s elapsed</p>}
+      {status}
       {result && <pre>{result}</pre>}
-      {/*result && (
-        <div dangerouslySetInnerHTML={{ __html: result }} />
-      )*/}
     </>
   );
 };
