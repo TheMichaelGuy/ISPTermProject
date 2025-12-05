@@ -1,0 +1,32 @@
+version: "3.9"
+services:
+  application:
+    container_name: science-project
+    image: node:lts-alpine
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/home/node/code
+    working_dir: /home/node/code
+    command: "npm run dev"
+    depends_on:
+      - backend
+    environment:
+      - HOST=0.0.0.0
+      - CHOKIDAR_USEPOLLING=true
+      - CHOKIDAR_INTERNAL=100
+    tty: true
+  
+  backend:
+    image: postgres:15
+    restart: always
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: blastdb
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+volumes:
+  pgdata:
